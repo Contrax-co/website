@@ -1,0 +1,8 @@
+.hero-img {
+  width: 100%;
+}
+
+/* Manual override of border-radius on all Bootstrap landing page buttons */
+.radius-change {
+  border-radius: 15px !important;
+}
