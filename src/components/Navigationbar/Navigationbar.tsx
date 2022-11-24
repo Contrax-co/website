@@ -6,7 +6,7 @@ export default function Navigationbar() {
   return (
     <div className="header_container">
       <Link to="/">
-        <img className="contrax_logo" alt="contrax-logo" src={logo} />
+        <img className="contrax_logo img-fluid"  alt="contrax-logo" src={logo} />
       </Link>
       {/* TODO - Re-add link to 'Enter App' once beta is ready */}
       {/* <Link to="/application"> */}
