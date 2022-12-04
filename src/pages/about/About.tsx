@@ -20,7 +20,7 @@ import twitter from '../../images/twitter-round.png';
 
 export default function about() {
   return (
-    <div style={{ backgroundColor: colors.white }}>
+    <div style={{ backgroundColor: colors.white,overflowY:'auto' }}>
       <Navigationbar />
       <div style={{ background: colors.pageBgLight, paddingBottom: '2.5rem' }}>
         <Container className="video-section mt-4 mb-5 pb-3 text-center">
