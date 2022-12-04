@@ -148,7 +148,7 @@ export default function about() {
                 <H3 color={colors.primary}>Usman Shamas</H3>
               </Row>
               <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Frontend Engineer</H3>
+                <H3 color={colors.accentDark}>Frontend & Web3 Integration Engineer </H3>
               </Row>
               <Row>
                 <Col className="text-center mt-2">

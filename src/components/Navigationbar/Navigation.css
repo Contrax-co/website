@@ -8,11 +8,28 @@
   justify-content: space-between;
 }
 
-.contrax_logo {
-  width: 13vw;
-  margin-bottom: 20px;
-}
 
+@media (min-width: 1025px) and (max-width: 2080px){
+  .contrax_logo {
+    width: 30%;
+    
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 520px) and (max-width: 1025px) {
+  .contrax_logo {
+    width: 50%;
+    height: 30%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .contrax_logo {
+    width: 80%;
+    height: 30%;
+    margin-bottom: 20px;
+  }
+}
 .enter_button {
   background-color: #009aff;
   color: white;
@@ -22,6 +39,7 @@
   padding-right: 20px;
   border-radius: 15px;
   height: fit-content;
+  width: fit-content;
 }
 
 .enter_button:hover {
