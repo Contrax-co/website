@@ -10,7 +10,7 @@ import { Block, Container, Row } from '../../components/blocks/Blocks';
 
 export default function home() {
   return (
-    <div style={{ backgroundColor: colors.white }}>
+    <div style={{ backgroundColor: colors.white,overflowY:'auto'  }}>
       <Navigationbar />
       <Banner />
       {/* benefits section */}
