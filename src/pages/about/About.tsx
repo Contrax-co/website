@@ -34,7 +34,7 @@ export default function about() {
           <iframe
             width="60%"
             height="350"
-            src="https://www.youtube.com/embed/-jH9GMOLXf4"
+            src="https://www.youtube.com/embed/oaKZ-0XyHt4"
             title="Contrax explainer video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
