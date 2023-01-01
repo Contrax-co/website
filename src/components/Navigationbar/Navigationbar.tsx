@@ -11,8 +11,7 @@ export default function Navigationbar() {
       {/* TODO - Re-add link to 'Enter App' once beta is ready */}
       {/* <Link to="/application"> */}
       <div className="enter_button inactive-btn text-center">
-        <p>Enter App</p>
-        <p className="text-shrink">(Coming Soon)</p>
+          <p><a href="https://beta.contrax.finance"</p>>Enter App</a></p>
       </div>
       {/* </Link> */}
     </div>
