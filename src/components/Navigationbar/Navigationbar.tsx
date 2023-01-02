@@ -6,15 +6,13 @@ export default function Navigationbar() {
   return (
     <div className="header_container">
       <Link to="/">
-        <img className="contrax_logo img-fluid"  alt="contrax-logo" src={logo} />
+        <img className="contrax-logo" alt="Contrax logo" src={logo} />
       </Link>
-      {/* TODO - Re-add link to 'Enter App' once beta is ready */}
-      {/* <Link to="/application"> */}
-      <div className="enter_button inactive-btn text-center">
-        <p>Enter App</p>
-        <p className="text-shrink">(Coming Soon)</p>
-      </div>
-      {/* </Link> */}
+      <a className="enter-btn-container" href="https://beta.contrax.finance/">
+        <div className="enter-btn">
+          <p className="enter-btn-text">Enter App</p>
+        </div>
+      </a>
     </div>
   );
 }

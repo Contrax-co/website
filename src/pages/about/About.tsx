@@ -10,17 +10,16 @@ import { Image } from '../../components/image/Image';
 import soheeb from '../../images/team/soheeb.jpeg';
 import kj from '../../images/team/kj.jpeg';
 import abbie from '../../images/team/abbie.jpeg';
-import usman from '../../images/team/usman.jpeg';
-import danyal from '../../images/team/danyal.jpeg';
-import carson from '../../images/team/carson.jpeg';
+import jomari from '../../images/team/jomari.jpg';
 import gianfranco from '../../images/team/gianfranco.jpeg';
 import legal from '../../images/team/legal-team.png';
 import linkedin from '../../images/linkedin.png';
+import github from '../../images/github.png';
 import twitter from '../../images/twitter-round.png';
 
 export default function about() {
   return (
-    <div style={{ backgroundColor: colors.white,overflowY:'auto' }}>
+    <div style={{ backgroundColor: colors.white, overflowY: 'auto' }}>
       <Navigationbar />
       <div style={{ background: colors.pageBgLight, paddingBottom: '2.5rem' }}>
         <Container className="video-section mt-4 mb-5 pb-3 text-center">
@@ -59,7 +58,7 @@ export default function about() {
                 <H3 color={colors.primary}>Soheeb Aziz</H3>
               </Row>
               <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Co-Founder | Operations</H3>
+                <H3 color={colors.accentDark}>Founder • Operations</H3>
               </Row>
               <Row>
                 <Col className="text-center mt-2">
@@ -67,10 +66,13 @@ export default function about() {
                     target="_blank"
                     link="https://www.linkedin.com/in/soheebaziz"
                   >
-                    <Image className="mr-4" width="24px" src={linkedin} />
+                    <Image className="mr-2" width="24px" src={linkedin} />
                   </Link>
                   <Link target="_blank" link="https://twitter.com/SoheebAziz">
-                    <Image width="24px" src={twitter} />
+                    <Image className="mr-2" width="24px" src={twitter} />
+                  </Link>
+                  <Link target="_blank" link="https://github.com/SoheebAmin">
+                    <Image width="24px" src={github} />
                   </Link>
                 </Col>
               </Row>
@@ -82,7 +84,7 @@ export default function about() {
                 <H3 color={colors.primary}>KJ Magill</H3>
               </Row>
               <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Co-Founder | Engineering</H3>
+                <H3 color={colors.accentDark}>Founder • Engineering</H3>
               </Row>
               <Row>
                 <Col className="text-center mt-2">
@@ -90,10 +92,13 @@ export default function about() {
                     target="_blank"
                     link="https://www.linkedin.com/in/kjmagill"
                   >
-                    <Image className="mr-4" width="24px" src={linkedin} />
+                    <Image className="mr-2" width="24px" src={linkedin} />
                   </Link>
                   <Link target="_blank" link="https://twitter.com/kjmagill">
-                    <Image width="24px" src={twitter} />
+                    <Image className="mr-2" width="24px" src={twitter} />
+                  </Link>
+                  <Link target="_blank" link="https://github.com/kjmagill">
+                    <Image width="24px" src={github} />
                   </Link>
                 </Col>
               </Row>
@@ -113,76 +118,13 @@ export default function about() {
                     target="_blank"
                     link="https://www.linkedin.com/in/abigailtcameron/"
                   >
-                    <Image width="24px" src={linkedin} />
-                  </Link>
-                </Col>
-              </Row>
-            </StyledCard>
-
-            <StyledCard className="p-1 mb-4">
-              <StyledImage src={carson} />
-              <Row className="text-center mt-3">
-                <H3 color={colors.primary}>Carson Case</H3>
-              </Row>
-              <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Smart Contract Engineer</H3>
-              </Row>
-              <Row>
-                <Col className="text-center mt-2">
-                  <Link
-                    target="_blank"
-                    link="https://www.linkedin.com/in/carson-case-259b25149/"
-                  >
-                    <Image className="mr-4" width="24px" src={linkedin} />
-                  </Link>
-                  <Link target="_blank" link="https://twitter.com/CarsonCase7">
-                    <Image width="24px" src={twitter} />
-                  </Link>
-                </Col>
-              </Row>
-            </StyledCard>
-
-            <StyledCard className="p-1 mb-4">
-              <StyledImage src={usman} />
-              <Row className="text-center mt-4">
-                <H3 color={colors.primary}>Usman Shamas</H3>
-              </Row>
-              <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Frontend & Web3 Integration Engineer </H3>
-              </Row>
-              <Row>
-                <Col className="text-center mt-2">
-                  <Link
-                    target="_blank"
-                    link="https://www.linkedin.com/in/usman-shamas56/"
-                  >
-                    <Image className="mr-4" width="24px" src={linkedin} />
+                    <Image className="mr-2" width="24px" src={linkedin} />
                   </Link>
                   <Link
                     target="_blank"
-                    link="https://twitter.com/m_usman_shamas"
+                    link="https://github.com/AbigailTCameron"
                   >
-                    <Image width="24px" src={twitter} />
-                  </Link>
-                </Col>
-              </Row>
-            </StyledCard>
-
-            <StyledCard className="p-1 mb-4">
-              <StyledImage src={danyal} />
-              <Row className="text-center mt-3">
-                <H3 color={colors.primary}>Danyal Ahmad</H3>
-              </Row>
-              <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Backend Engineer</H3>
-              </Row>
-              <Row>
-                <Col className="text-center mt-2">
-                  <Link
-                    target="_blank"
-                    link="https://www.linkedin.com/in/deenario/"
-                  >
-                    <Image width="24px" src={linkedin} />
+                    <Image width="24px" src={github} />
                   </Link>
                 </Col>
               </Row>
@@ -202,10 +144,36 @@ export default function about() {
                     target="_blank"
                     link="https://www.linkedin.com/in/gianfranco-jeff-d-agostino-5611a520/"
                   >
-                    <Image className="mr-4" width="24px" src={linkedin} />
+                    <Image className="mr-2" width="24px" src={linkedin} />
                   </Link>
                   <Link target="_blank" link="https://twitter.com/riotaio">
                     <Image width="24px" src={twitter} />
+                  </Link>
+                </Col>
+              </Row>
+            </StyledCard>
+
+            <StyledCard className="p-1 mb-4">
+              <StyledImage src={jomari} />
+              <Row className="text-center mt-3">
+                <H3 color={colors.primary}>Jomari Peterson</H3>
+              </Row>
+              <Row className="text-center mt-1">
+                <H3 color={colors.accentDark}>Technical Advisor</H3>
+              </Row>
+              <Row>
+                <Col className="text-center mt-2">
+                  <Link
+                    target="_blank"
+                    link="https://www.linkedin.com/in/jomari/"
+                  >
+                    <Image className="mr-2" width="24px" src={linkedin} />
+                  </Link>
+                  <Link target="_blank" link="https://twitter.com/Jomari_P">
+                    <Image className="mr-2" width="24px" src={twitter} />
+                  </Link>
+                  <Link target="_blank" link="https://github.com/jomarip">
+                    <Image width="24px" src={github} />
                   </Link>
                 </Col>
               </Row>

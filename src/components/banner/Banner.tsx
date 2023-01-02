@@ -15,58 +15,54 @@ export default function Banner() {
   return (
     <div style={{ background: colors.pageBgLight, paddingBottom: '1rem' }}>
       <header className="masthead home-background">
-        <Container className="h-100">
+        <Container className="h-100 hero-container">
           <Row>
             <Col size="7" className="my-auto">
-              <p className={'mt-4 mb-2'}>
-                <H2 color={colors.secondaryMedium}>
+              <p className="hero-h2-container">
+                <H2 className="hero-h2" color={colors.secondaryMedium}>
                   Open-Source. Permissionless.
                 </H2>
               </p>
-              <H1 color={colors.primary} size="4.4rem" lineHeight="4.7rem">
-                Let Your Crypto Work For You
+              <H1 className="hero-h1" color={colors.primary}>
+                Let Your Crypto
+                <br />
+                Work For You
               </H1>
               <Row>
                 <H3
                   color={colors.secondaryDark}
                   size="1.55rem"
-                  className="mt-3 mb-1"
+                  className="hero-h3"
                 >
                   Auto-compounding vaults for <i>real yield</i> assets
                 </H3>
               </Row>
               <Image
                 src={arbitrum}
-                className="mr-4 mt-3"
-                width="140"
-                height="27"
+                className="mt-3 arbitrum-logo"
                 alt="Arbitrum"
               />
               <Image
                 src={sushiswap}
-                className="mr-4 mt-3"
-                width="125"
-                height="22"
+                className="mt-3 sushi-logo"
                 alt="Sushiswap"
               />
               <Image
                 src={arbiscan}
-                className="mr-4 mt-3"
-                width="140"
-                height="27"
+                className="mt-3 arbiscan-logo"
                 alt="Arbiscan"
               />
-              <Row className=""></Row>
+              <br />
               <Button
                 size="sm"
-                className="mx-2 mb-3 mt-4 p-3 px-4 radius-change"
+                className="ml-0 mr-2 mb-3 mt-4 p-3 px-4 radius-change"
                 primary
                 label={'Explore Docs'}
                 onClick={() =>
                   window.open('https://docs.contrax.finance/', '_blank')
                 }
               />
-              <Link to="/about">
+              <Link to="/about" className="hero-btn2">
                 <Button
                   size="sm"
                   className="mx-2 mb-3 mt-4 p-3 px-4 radius-change"

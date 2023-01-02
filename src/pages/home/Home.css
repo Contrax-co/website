@@ -1,0 +1,18 @@
+.benefits-container {
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+
+@media screen and (max-width: 767px) {
+  .benefits-container {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .benefits-container {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
