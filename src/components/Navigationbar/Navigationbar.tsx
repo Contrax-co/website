@@ -1,6 +1,5 @@
 import logo from '../../images/logo-4x.png';
 import './Navigation.css';
-import { Link } from 'react-router-dom';
 
 export default function Navigationbar() {
   return (
