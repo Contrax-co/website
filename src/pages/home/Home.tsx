@@ -34,7 +34,7 @@ export default function home() {
               label="Learn More"
               onClick={() =>
                 window.open(
-                  'https://docs.contrax.finance/contrax-dapp/farms',
+                  'https://docs.contrax.finance/start/wallet-setup',
                   '_blank'
                 )
               }
