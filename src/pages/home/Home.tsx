@@ -73,7 +73,7 @@ export default function home() {
             </Block>
             <Block className="mt-4">
               <B1 className="mb-5">
-                Deposit assets into auto-compounding vaults with just a few
+                Deposit assets into our auto-compounding vaults with just a few
                 clicks, then sit back and watch the magic happen!
               </B1>
             </Block>
