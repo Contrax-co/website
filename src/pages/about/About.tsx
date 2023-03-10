@@ -58,7 +58,7 @@ export default function about() {
                 <H3 color={colors.primary}>Soheeb Aziz</H3>
               </Row>
               <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Founder • Operations</H3>
+                <H3 color={colors.accentDark}>Founder ⇔ Operations</H3>
               </Row>
               <Row>
                 <Col className="text-center mt-2">
@@ -84,7 +84,7 @@ export default function about() {
                 <H3 color={colors.primary}>KJ Magill</H3>
               </Row>
               <Row className="text-center mt-1">
-                <H3 color={colors.accentDark}>Founder • Engineering</H3>
+                <H3 color={colors.accentDark}>Founder ⇔ Engineering</H3>
               </Row>
               <Row>
                 <Col className="text-center mt-2">

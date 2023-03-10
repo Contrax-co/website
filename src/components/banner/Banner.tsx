@@ -20,13 +20,13 @@ export default function Banner() {
             <Col size="7" className="my-auto">
               <p className="hero-h2-container">
                 <H2 className="hero-h2" color={colors.secondaryMedium}>
-                  Open-Source. Permissionless.
+                  Open-Source. Non-custodial.
                 </H2>
               </p>
               <H1 className="hero-h1" color={colors.primary}>
-                Let Your Crypto
+                Crypto Yields
                 <br />
-                Work For You
+                Made Simple
               </H1>
               <Row>
                 <H3
@@ -34,7 +34,7 @@ export default function Banner() {
                   size="1.55rem"
                   className="hero-h3"
                 >
-                  Auto-compounding vaults for <i>real yield</i> assets
+                  Stake and start earning in just a few clicks
                 </H3>
               </Row>
               <Image

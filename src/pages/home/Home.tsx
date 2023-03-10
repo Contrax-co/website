@@ -17,14 +17,14 @@ export default function home() {
       <Container className="benefits-container">
         <Row className="d-row justify-content-between">
           <StyledCard className="p-1">
-            <H3 color={colors.secondaryMedium}>Built on Arbitrum</H3>
+            <H3 color={colors.secondaryMedium}>Safe &amp; Secure</H3>
             <Block className="mt-2">
-              <H1 color={colors.accentDark}>Secure &amp; Scalable</H1>
+              <H1 color={colors.accentDark}>Control Your Keys</H1>
             </Block>
             <Block className="mt-4">
               <B1 className="mb-5">
-                Arbitrum is secured by Ethereum, and saves gas fees by moving
-                computations and data storage off of the main chain.
+                Contrax is non-custodial. You maintain sole control of your
+                private keys which in turn control your cryptocurrency.
               </B1>
             </Block>
             <Button
@@ -42,14 +42,14 @@ export default function home() {
           </StyledCard>
 
           <StyledCard className="p-1">
-            <H3 color={colors.secondaryMedium}>No-code Design</H3>
+            <H3 color={colors.secondaryMedium}>User-Friendly</H3>
             <Block className="mt-2">
-              <H1 color={colors.accentDark}>Highly Accessible</H1>
+              <H1 color={colors.accentDark}>Navigate with Ease</H1>
             </Block>
             <Block className="mt-4">
               <B1 className="mb-5">
-                Designed for anyone to use. Create, manage and farm crypto
-                assets on Arbitrum with no coding necessary.
+                Create a new wallet by signing in with social media, or connect
+                an external wallet, then enjoy a gas-less experience.
               </B1>
             </Block>
             <Button
@@ -67,14 +67,14 @@ export default function home() {
           </StyledCard>
 
           <StyledCard className="p-1">
-            <H3 color={colors.secondaryMedium}>Automated Tools</H3>
+            <H3 color={colors.secondaryMedium}>Auto-Compounding</H3>
             <Block className="mt-2">
-              <H1 color={colors.accentDark}>Optimized Yields</H1>
+              <H1 color={colors.accentDark}>Maximize Yields</H1>
             </Block>
             <Block className="mt-4">
               <B1 className="mb-5">
-                Deposit assets into our auto-compounding vaults with just a few
-                clicks, then sit back and watch the magic happen!
+                Enter a vault in just a few clicks, then sit back &amp; watch
+                the magic happen as your rewards continously compound.
               </B1>
             </Block>
             <Button
